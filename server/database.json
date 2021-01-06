@@ -17,18 +17,6 @@
       "published_status": false
     },
     {
-      "title": "Incredible Fresh Car",
-      "description": "Aliquid et voluptates. Quam temporibus quasi cumque aut iste. Quia qui est illo. Quis distinctio architecto laboriosam saepe optio voluptates omnis ut. Reprehenderit voluptate repellendus et aut odit.",
-      "published": true,
-      "id": 4
-    },
-    {
-      "title": "Handmade Fresh Gloves",
-      "description": "Omnis dolorem consequatur dolorem in ad et et quia modi. Qui tempore asperiores quo voluptatibus. Deserunt accusamus facilis ex. Minima vel debitis est inventore aut ipsam quidem totam.",
-      "published": false,
-      "id": 5
-    },
-    {
       "id": 6,
       "title": "Incredible Wooden Keyboard",
       "description": "Repellendus commodi dignissimos. Ut nobis et nihil. Excepturi eligendi maxime ut dolorum nisi itaque. Illo odio reiciendis facilis porro in velit. Suscipit soluta necessitatibus labore ipsam sit illo quo eos. Necessitatibus temporibus ratione veritatis deleniti ut praesentium.",
@@ -67,11 +55,6 @@
       "price": "753.00",
       "imageUrl": "https://source.unsplash.com/1600x900/?product",
       "published_status": false
-    },
-    {
-      "title": "Ragil English",
-      "description": "desc",
-      "id": 11
     },
     {
       "title": "Ragil BUKU",

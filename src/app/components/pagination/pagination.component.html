@@ -1,0 +1,14 @@
+<ul class="list">
+    <span><strong>Name - </strong></span>
+    <span><strong>Price</strong></span>
+    <li *ngFor="let l of tutorials | slice: (curPage * pageSize) - pageSize :curPage * pageSize">
+      <span>{{l.title}} , </span>
+      {{l.price == "" ? "Free" : "$"+l.price}}
+    </li>
+  </ul>
+  <p class="pagination">
+      <button class="btn btn-primary" [disabled] ="curPage == 1" (click)="curPage = curPage - 1">PREV</button>
+        <span style="padding: 1%;">Page {{curPage}} of {{ pageSize }}</span>
+      <button class="btn btn-primary" [disabled] = "curPage >= list.length/pageSize" 
+               (click) ="curPage = curPage + 1">NEXT</button>
+  </p>
