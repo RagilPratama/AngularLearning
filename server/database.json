@@ -17,12 +17,10 @@
       "published_status": false
     },
     {
-      "id": 4,
       "title": "Incredible Fresh Car",
       "description": "Aliquid et voluptates. Quam temporibus quasi cumque aut iste. Quia qui est illo. Quis distinctio architecto laboriosam saepe optio voluptates omnis ut. Reprehenderit voluptate repellendus et aut odit.",
-      "price": "70.00",
-      "imageUrl": "https://source.unsplash.com/1600x900/?product",
-      "published_status": false
+      "published": true,
+      "id": 4
     },
     {
       "title": "Handmade Fresh Gloves",

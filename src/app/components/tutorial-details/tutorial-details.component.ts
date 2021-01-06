@@ -8,7 +8,7 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./tutorial-details.component.css']
 })
 export class TutorialDetailsComponent implements OnInit {
-  currentTutorial = null;
+  currentTutorial : any;
   message = '';
 
   constructor(
@@ -21,7 +21,7 @@ export class TutorialDetailsComponent implements OnInit {
     this.getTutorial(this.route.snapshot.paramMap.get('id'));
   }
 
-  getTutorial(id): void {
+  getTutorial(id : any): void {
     this.tutorialService.get(id)
       .subscribe(
         data => {
@@ -33,7 +33,7 @@ export class TutorialDetailsComponent implements OnInit {
         });
   }
 
-  updatePublished(status): void {
+  updatePublished(status : any): void {
     const data = {
       title: this.currentTutorial.title,
       description: this.currentTutorial.description,
