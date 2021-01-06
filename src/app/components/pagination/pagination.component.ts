@@ -11,7 +11,15 @@ export class PaginationComponent implements OnInit {
   list : any;
   curPage : any;
   pageSize : any;
-  tutorials : any;
+  public tutorials = [
+  {
+    "id": "",
+    "title": "",
+    "description": "",
+    "price": "",
+    "imageUrl": "",
+    "published_status": false
+  }];
   constructor(private tutorialService: TutorialService) { 
     this.list = [
       {name:'Prashobh',age:'25'},

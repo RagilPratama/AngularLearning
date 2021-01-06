@@ -9,7 +9,7 @@ import { TutorialService } from 'src/app/services/tutorial.service';
 export class TutorialsListComponent implements OnInit {
 
   tutorials: any;
-  currentTutorial = null;
+  currentTutorial: any = null;
   currentIndex = -1;
   title = '';
 
